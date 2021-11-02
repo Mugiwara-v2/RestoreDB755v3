@@ -1,3 +1,3 @@
-# RestoreDB755v3
+# RestoreDB755v7
 
-https://mugiwara-v2.github.io/RestoreDB755v4/index.html
+https://mugiwara-v2.github.io/RestoreDB755v7/index.html
