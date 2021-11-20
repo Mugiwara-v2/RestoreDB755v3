@@ -36,7 +36,11 @@
 		}		
 		window.midExploit = function()
 		{
-			preloadScripts(['exploit.js', 'jailbreak.js', 'DB_SG_restore.js', 'jsloader.js']);
+		   var scripts = ['exploit.js'];
+                      scripts.push('jailbreak.js');
+                      scripts.push('restore.js');
+		      scripts.push('jsloader.js');
+                      preloadScripts(scripts);
 		}
 		window.postExploit = function()
 		{
