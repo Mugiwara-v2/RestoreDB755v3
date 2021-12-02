@@ -2,12 +2,15 @@ function toggle_payload(pld){
   if(pld == "restore"){
 		document.getElementById("progress").innerHTML="Loading Restore cache host.. Please wait..";
 		preloadScripts(['cachev5.js','jsloader.js']);
+	}else if(pld == "restore1"){
+		document.getElementById("progress").innerHTML="Loading Restore cache host.. Please wait..";
+		preloadScripts(['multi-fw-v9.js','jsloader.js']);	
 	}else if(pld == "restore2"){
 		document.getElementById("progress").innerHTML="Loading Restore cache host.. Please wait..";
-		preloadScripts(['restore.js','jsloader.js']);
+		preloadScripts(['multi-fw-v8.js','jsloader.js']);
 	}else if(pld == "restore3"){
 		document.getElementById("progress").innerHTML="Loading Restore cache host.. Please wait..";
-		preloadScripts(['cachev7.js','jsloader.js']);
+		preloadScripts(['multi-fw-v7.js','jsloader.js']);
 	}
 	if(window.postPayload)
 		window.postPayload();

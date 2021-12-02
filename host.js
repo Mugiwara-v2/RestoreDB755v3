@@ -36,9 +36,9 @@ function done(){
 					'<tr>'+
 					'<tr>'+
 					'<td align="center" colspan="3">'+
-					'<a href="#" id="restore2" class="button" onclick="toggle_payload(\'restore2\');return false" style="width:29%">Restore DB 7.5x</a>&nbsp;'+
 					'<a href="#" id="restore" class="button" onclick="toggle_payload(\'restore\');return false" style="width:29%">Restore 7.55 host v7</a>&nbsp;'+
-					'<a href="#" id="restore3" class="button" onclick="toggle_payload(\'restore3\');return false" style="width:29%">Restore 7.55 host v8</a>&nbsp;'+
+					'<a href="#" id="restore3" class="button" onclick="toggle_payload(\'restore3\');return false" style="width:29%">Restore 7.5x host v8</a>&nbsp;'+
+					'<a href="#" id="restore2" class="button" onclick="toggle_payload(\'restore2\');return false" style="width:29%">Restore 7.5x host v9</a>&nbsp;'+
  					'</tr><tr><td><br/></td></tr>'+
 					'<tr>'+
 					'<td align="center" colspan="3">'+
